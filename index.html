@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formen</title>
+</head>
+<body>
+    <form action="" method="" style="width: 500px">
+        <legend>Anmeldeformular für Studierende</legend>
+        <fieldset>
+            <legend>Details des Studenten</legend>
+            <label>Name</label><br/>
+            <input type="text" name="Name" id="Name"><br/>
+            <label>Nachname</label><br/>
+            <input type="text" name="Nachname" id="Nachname"><br/>
+            <label>Geschlecht</label><br/>
+            <input type="radio" name="Geschlecht" value="Maskulin">Maskulin<br/>
+            <input type="radio" name="Geschlecht" value="Feminin">Feminin<br/>
+            <label>E-Mail</label><br/>
+            <input type="E-Mail" name="E-Mail" id="E-Mail"><br/>
+        </fieldset>
+        <fieldset>
+            <legend>Details des Trainings</legend>
+            <select name="Training" id="Training">
+                <option value=""> Training auswahlen</option>
+                <option value="1">Java Fundamentals</option>
+                <option value="2">C# Fundamentals</option>
+                <option value="3">Web Entwicklung</option>
+                <option value="4"> CCNA</option>
+            </select><br/>
+            <label>Zeitplan</label><br/>
+            <input type="checkbox" name="Zeitplan" value="Fruhschicht">Fruhschicht<br/>
+            <input type="checkbox" name="Zeitplan" value="Spatschicht">Spatschicht<br/>
+            <label>Datum der Bewerbung</label><br/>
+            <input type="date" name="Datum der Bewerbung"><br/>
+            <label>Kommentare</label><br/>
+            <textarea name="Kommentare"></textarea><br/>
+        </fieldset>
+        <input type="submit" value="Bewerben">
+    </form>
+</body>
+</html>
